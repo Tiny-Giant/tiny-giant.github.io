@@ -78,11 +78,6 @@ header .button {
   right: 20px;
 }
 
-#content-wrapper h1 {
-  padding-left: 10px;
-  margin-left: -10px;
-}
-
 #content-wrapper {
   position: relative;
   width: 1000px;
@@ -97,12 +92,17 @@ header .button {
   width: 700px;
 }
 
-.main-content section h2 {
+.main-content h1 {
+  padding-left: 10px;
+  margin-left: -20px;
+}
+
+.main-content h2 {
   padding-left: 10px;
   margin-left: -10px;
 }
 
-.main-content section h3 {
+.main-content h3 {
   padding-left: 10px;
 }
 
