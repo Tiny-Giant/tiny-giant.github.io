@@ -1,5 +1,9 @@
 @import 'https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400';
 
+html * {
+  box-sizing: border-box;
+}
+
 html {
   font-family: 'Source Sans Pro', sans-serif;
   font-weight: 300;
@@ -55,6 +59,7 @@ header {
 }
 
 header .inner {
+  height: 150px;
   width: 1000px;
   margin: 0 auto;
   background-image: url('/images/lion.jpg');
