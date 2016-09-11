@@ -130,9 +130,11 @@ a.button {
   display: block;
   width: 202px;
   height: 80px;
+  padding-top: 20px;
   padding-left: 80px;
   margin-bottom: 20px;
   font-size: 21px;
+  color: #FFF;
 }
 a.button.github {
   background: transparent url(../images/github-button.png) 0 0 no-repeat;
