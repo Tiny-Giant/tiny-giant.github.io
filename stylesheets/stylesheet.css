@@ -89,6 +89,7 @@ header.subheading {
 }
 
 .main-content {
+  padding-left: 10px;
   float: left;
   width: 700px;
 }
@@ -141,13 +142,13 @@ a.button small {
   display: block;
   font-size: 11px;
 }
-header a.button {
+a.button.github {
   position: absolute;
   top: 0;
   right: 0;
   background: transparent url(../images/github-button.png) 0 0 no-repeat;
 }
-.sidebar a.button {
+a.button.download {
   display: block;
   width: 138px;
   padding-left: 64px;
