@@ -48,17 +48,29 @@ a:hover {
 }
 
 header {
-  padding-top: 40px;
-  padding-bottom: 40px;
   color: #CFCFCF;
   background: #444;
+}
+
+header .logo {
+  height: 200px;
+}
+
+header .inner {
+  width: 1000px;
+  margin: 0 auto;
+  line-height: 200px;
+}
+
+header .header-text {
+  display: inline-block;
+  line-height: 1.5em;
 }
 
 .heading,
 .subheading {
   position: relative;
   width: 1000px;
-  margin: 0 auto;
 }
 
 .heading {
