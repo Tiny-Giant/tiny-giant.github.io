@@ -78,7 +78,8 @@ header h1 {
 
 header .button {
   position: absolute;
-  right: 0;
+  top: 35px;
+  right: 10px;
 }
 
 #content-wrapper h1 {
