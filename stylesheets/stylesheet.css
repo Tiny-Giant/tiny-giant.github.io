@@ -60,6 +60,10 @@ header .inner {
   width: 1000px;
   margin: 0 auto;
   line-height: 200px;
+  background-image: url('images/lion.jpg');
+  background-size: 100px 100px;
+  background-repeat: no-repeat;
+  padding-left: 110px;
 }
 
 header .header-text {
