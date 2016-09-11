@@ -142,18 +142,17 @@ a.button small {
   display: block;
   font-size: 11px;
 }
-a.button.github {
-  position: absolute;
-  top: 0;
-  right: 0;
-  background: transparent url(../images/github-button.png) 0 0 no-repeat;
-}
-a.button.download {
+a.button {
   display: block;
   width: 138px;
   padding-left: 64px;
   margin-bottom: 20px;
   font-size: 21px;
+}
+a.button.github {
+  background: transparent url(../images/github-button.png) 0 0 no-repeat;
+}
+a.button.download {
   background: transparent url(../images/download-button.png) 0 0 no-repeat;
 }
 
