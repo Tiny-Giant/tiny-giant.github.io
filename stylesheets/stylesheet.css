@@ -75,6 +75,11 @@ header h1 {
   font-size: 35pt;
 }
 
+#content-wrapper h1 {
+  padding-left: 10px;
+  margin-left: -10px;
+}
+
 #content-wrapper {
   position: relative;
   width: 1000px;
