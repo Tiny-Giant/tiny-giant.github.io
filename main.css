@@ -93,7 +93,7 @@ header {
 }
 
 header .global-wrapper {
-  background-image: url('../images/lion.png');
+  background-image: url('images/lion.png');
   background-size: 150px 150px;
   background-repeat: no-repeat;
   background-position: 0px 0px;
@@ -108,10 +108,16 @@ header h1 {
   font-size: 35pt;
 }
 
-header .button {
+header .button.github {
   position: absolute;
   top: 35px;
-  right: 20px;
+  right: 00px;
+}
+
+header .button.stackoverflow {
+  position: absolute;
+  top: 35px;
+  right: 220px;
 }
 
 .global-wrapper {
@@ -151,10 +157,9 @@ header .button {
 .sidebar {
   float: right;
   padding-top: 20px;
-  width: 222px;
+  width: 202px;
   font-size: 12px;
   line-height: 1.3;
-  padding-right: 20px;
 }
 
 .sidebar p.repo-owner,
@@ -174,19 +179,25 @@ a.button {
   display: block;
   width: 202px;
   height: 78px;
-  padding-top: 20px;
+  padding-top: 15px;
   padding-left: 80px;
   margin-bottom: 20px;
   font-size: 21px;
   color: #FFF;
 }
+a.button.stackoverflow {
+  padding-left: 50px;
+  background: transparent url(images/stackoverflow-button.png) 0 -1px no-repeat;
+  border-radius: 9px;
+}
 a.button.github {
-  background: transparent url(../images/github-button.png) 0 -1px no-repeat;
+  background: transparent url(images/github-button.png) 0 -1px no-repeat;
   background-color: #666;
   border-radius: 9px;
 }
 a.button.download {
-  background: transparent url(../images/download-button.png) 0 0 no-repeat;
+  padding-top: 20px;
+  background: transparent url(images/download-button.png) 0 0 no-repeat;
 }
 
 /* GENERAL ELEMENT TYPE STYLES */
