@@ -12,6 +12,7 @@ html {
 
 body {
   line-height: 1.5em;
+  padding-bottom: 200px;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -95,8 +96,8 @@ header .global-wrapper {
   background-image: url('../images/lion.png');
   background-size: 150px 150px;
   background-repeat: no-repeat;
-  background-position: 20px 0px;
-  padding-left: 220px;
+  background-position: 0px 0px;
+  padding-left: 200px;
   height: 150px;
   position: relative;
 }
@@ -115,15 +116,15 @@ header .button {
 
 .global-wrapper {
   position: relative;
-  width: 1000px;
+  width: 900px;
   margin: 0 auto;
 }
 
 .main-content {
-  padding-left: 30px;
+  padding-left: 10px;
   padding-top: 10px;
   float: left;
-  width: 700px;
+  width: 650px;
 }
 
 .main-content h1,
@@ -132,6 +133,7 @@ header .button {
   margin-top: 0 !important;
   margin-bottom: 0 !important;
 }
+
 
 .main-content h1 {
   margin-left: -10px;
@@ -143,7 +145,7 @@ header .button {
 
 .main-content p {
   padding-left: 20px;
-  margin-bottom: 20px;
+  margin-bottom: 10px;
 }
 
 .sidebar {
