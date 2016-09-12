@@ -38,7 +38,6 @@ h6:hover .permalink {
 }
 
 body {
-  font-size: 12pt;
   line-height: 1.5em;
   color: #EEE;
 }
@@ -159,7 +158,6 @@ a.button.download {
 code, pre {
   margin-bottom: 30px;
   font-family: Monaco, "Bitstream Vera Sans Mono", "Lucida Console", Terminal, monospace;
-  font-size: 13px;
   color: #222;
 }
 
