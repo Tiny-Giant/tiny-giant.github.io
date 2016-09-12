@@ -21,131 +21,207 @@
 
     <body>
         <header>
-            <h1>Tiny Giant</h1>
-            <p>Caution: May contain Magic™</p>
-            <a href="https://github.com/Tiny-Giant" class="button github">
-                <small>View profile on</small>
-                GitHub
-            </a>
+            <div class="global-wrapper">
+                <h1>Tiny Giant</h1>
+                <p>Caution: May contain Magic™</p>
+                <a href="https://github.com/Tiny-Giant" class="button github">
+                    <small>View profile on</small>
+                    GitHub
+                </a>
+            </div>
         </header>
-        <div id="content-wrapper">
-            <div class="clearfix">
-                <div class="main-content">
-                    <h1 id="userscripts">My User Scripts</h1>
-                    <p>These are a few of the user scripts that I have written for Stack Overflow. They aren't all polished and most are incomplete. It should take about 6-8 weeks to finish them all. Bug reports are appreciated, feature requests are useful but don't expect anything to happen right away.</p>
+        <div class="global-wrapper clearfix">
+            <section class="main-content permalink-target" id="myuserscripts">
+                <h1>My User Scripts</h1>
+                <p>These are a few of the user scripts that I have written for Stack Overflow. They aren't all polished and most are incomplete. It should take about 6-8 weeks to finish them all. Bug reports are appreciated, feature requests are useful but don't expect anything to happen right away.</p>
 
-                    <section>
-                        <h2 id="debugging">Debugging</h2>
+                <section class="permalink-target" id="debugging">
+                    <h2>Debugging</h2>
 
-                        <h3 id="ajax-listener"><a href="https://github.com/Tiny-Giant/myuserscripts/blob/master/AJAXListener.user.js">AJAX Listener</a></h3>
+                    <article class="permalink-target" id="ajax-listener" data-userscript="https://github.com/Tiny-Giant/myuserscripts/blob/master/AJAXListener.user.js">
+                        <h3>AJAX Listener</h3>
                         <p>A simple AJAX listener that intercepts all AJAX requests made on a page and logs them to the console for review.</p>
+                    </article>
 
-                        <h3 id="enable-logging"><a href="https://github.com/Tiny-Giant/myuserscripts/blob/master/EnableLogging.user.js">Enable Logging</a></h3>
+                    <article class="permalink-target" id="enable-logging" data-userscript="https://github.com/Tiny-Giant/myuserscripts/blob/master/EnableLogging.user.js">
+                        <h3>Enable Logging</h3>
                         <p>Enables Stack Overflow's built in logging / debugging system.</p>
-                    </section>
-                    <section>
-                        <h2 id="chat">Chat</h2>
+                    </article>
+                </section>
+                <section class="permalink-target" id="chat">
+                    <h2>Chat</h2>
 
-                        <h3 id="moderation-request-archiver"><a href="https://github.com/Tiny-Giant/myuserscripts/blob/master/CVRequestArchiver.user.js">Moderation Request Archiver</a></h3>
+                    <article class="permalink-target" id="moderation-request-archiver" data-userscript="https://github.com/Tiny-Giant/myuserscripts/blob/master/CVRequestArchiver.user.js">
+                        <h3>Moderation Request Archiver</h3>
                         <p>Provides an interface to archive formatted moderation requests in a given chat room. Must be a room owner or moderator of the current room for the interface to show up. This is an old version, the <a href="https://github.com/SO-Close-Vote-Reviewers/UserScripts/blob/master/CVRequestArchiver.user.js">newest version</a> is being maintained by the <a href="https://github.com/SO-Close-Vote-Reviewers">SOCVR</a> More information to come.</p>
+                    </article>
 
-                        <h3 id="moderation-request-generator"><a href="https://github.com/Tiny-Giant/myuserscripts/blob/master/CVRequestGenerator.user.js">Moderation Request Generator</a></h3>
+                    <article class="permalink-target" id="moderation-request-generator" data-userscript="https://github.com/Tiny-Giant/myuserscripts/blob/master/CVRequestGenerator.user.js">
+                        <h3>Moderation Request Generator</h3>
                         <p>Provides an interface to automate the formatting and sending of moderation requests from a post to a given chat room. Currently only works for close vote requests on questions. More information to come.</p>
+                    </article>
 
-                        <h3 id="trainwreck"><a href="https://github.com/Tiny-Giant/myuserscripts/blob/master/Trainwreck.user.js">Trainwreck</a></h3>
+                    <article class="permalink-target" id="trainwreck" data-userscript="https://github.com/Tiny-Giant/myuserscripts/blob/master/Trainwreck.user.js">
+                        <h3>Trainwreck</h3>
                         <p>Provides an interface to automate the formatting and sending of a message to the current chat room. Format is <code>[#RekdTrain](link to random image of trainwreck)</code>. More information to come.</p>
-                    </section>
-                    <section>
-                        <h2 id="main-site">Main Site</h2>
+                    </article>
+                </section>
+                <section class="permalink-target" id="main-site">
+                    <h2>Main Site</h2>
 
-                        <h3 id="inline-editing-everywhere"><a href="https://github.com/Tiny-Giant/myuserscripts/blob/master/InlineEditingEverywhere.user.js">Inline Editing Everywhere</a></h3>
+                    <article class="permalink-target" id="inline-editing-everywhere" data-userscript="https://github.com/Tiny-Giant/myuserscripts/blob/master/InlineEditingEverywhere.user.js">
+                        <h3>Inline Editing Everywhere</h3>
                         <p>Enables inline editing even if you don't have the inline editing privilege on a given site. Edits must still go through review if you don't have the editing privilege. More information to come.</p>
+                    </article>
 
-                        <h3 id="sticky-vote-controls"><a href="https://github.com/Tiny-Giant/myuserscripts/blob/master/StickyVoteControls.user.js">Sticky Vote Controls</a></h3>
+                    <article class="permalink-target" id="sticky-vote-controls" data-userscript="https://github.com/Tiny-Giant/myuserscripts/blob/master/StickyVoteControls.user.js">
+                        <h3>Sticky Vote Controls</h3>
                         <p>Makes voting controls stick to the top of the page when scrolling down a long post. More information to come.</p>
-                    </section>
-                    <section>
-                        <h2 id="review">Review</h2>
+                    </article>
+                </section>
+                <section class="permalink-target" id="review">
+                    <h2>Review</h2>
 
-                        <h3 id="magic-tag-review"><a href="https://github.com/Tiny-Giant/myuserscripts/blob/master/MagicTagReview.user.js">Magic Tag Review</a></h3>
+                    <article class="permalink-target" id="magic-tag-review" data-userscript="https://github.com/Tiny-Giant/myuserscripts/blob/master/MagicTagReview.user.js">
+                        <h3>Magic Tag Review</h3>
                         <p>Provides a new review interface for reviewing questions in a specific tag based on close or delete votes. A new section is provided one the /review page. This will continue to exist but is going to be superseded by the new Magic Review Tool which will have many more features. More information to come.</p>
+                    </article>
 
-                        <h3 id="nato-enhancements"><a href="https://github.com/Tiny-Giant/myuserscripts/blob/master/NATOEnhancements.user.js">NATO Enhancements</a></h3>
+                    <article class="permalink-target" id="nato-enhancements" data-userscript="https://github.com/Tiny-Giant/myuserscripts/blob/master/NATOEnhancements.user.js">
+                        <h3>NATO Enhancements</h3>
                         <p>Loads the full post and question as they would be seen in the wild with all controls enabled. More information to come.</p>
+                    </article>
 
-                        <h3 id="nato-hide-questions"><a href="https://github.com/Tiny-Giant/myuserscripts/blob/master/NATOHideQuestions.user.js">NATO Hide Questions</a></h3>
+                    <article class="permalink-target" id="nato-hide-questions" data-userscript="https://github.com/Tiny-Giant/myuserscripts/blob/master/NATOHideQuestions.user.js">
+                        <h3>NATO Hide Questions</h3>
                         <p>Hides the questions loaded by the NATO Enhancements script, this will eventually be merged as an option into the NATO Enhancements script. </p>
+                    </article>
 
-                        <h3 id="review-enhancements"><a href="https://github.com/Tiny-Giant/myuserscripts/blob/master/ReviewEnhancements.user.js">Review Enhancements</a></h3>
+                    <article class="permalink-target" id="review-enhancements" data-userscript="https://github.com/Tiny-Giant/myuserscripts/blob/master/ReviewEnhancements.user.js">
+                        <h3>Review Enhancements</h3>
                         <p>Loads all posts as they would be seen in the wild with all controls enabled while in review. More information to come.</p>
+                    </article>
 
-                        <h3 id="votes-page-enhancements"><a href="https://github.com/Tiny-Giant/myuserscripts/blob/master/VotesPageEnhancements.user.js">Votes Page Enhancements</a></h3>
+                    <article class="permalink-target" id="votes-page-enhancements" data-userscript="https://github.com/Tiny-Giant/myuserscripts/blob/master/VotesPageEnhancements.user.js">
+                        <h3>Votes Page Enhancements</h3>
                         <p>Loads posts as they would be seen in the wild with all controls enabled on your votes page. Useful for reviewing posts that you have voted on.</p>
+                    </article>
 
-                        <h3 id="thing-checker"><a href="https://github.com/Tiny-Giant/myuserscripts/blob/master/ThingChecker.user.js">Thing Checker</a></h3>
+                    <article class="permalink-target" id="thing-checker" data-userscript="https://github.com/Tiny-Giant/myuserscripts/blob/master/ThingChecker.user.js">
+                        <h3>Thing Checker</h3>
                         <p>A proof of concept audit detection script which intercepts the review AJAX requests and looks for the <code>isAudit</code> property of the returned JSON object. This is not intended to be used. If you use it, you run the risk of being manually review banned. A better option is to review to the best of your ability and report any bad audits on meta. A review ban incurred by multiple bad audits can be lifted by moderators if the bad audits are indeed bad audits.</p>
-                    </section>
-                    <section id="styling">
-                        <h2 id="styling">Styling</h2>
+                    </article>
+                </section>
+                <section class="permalink-target" id="styling">
+                    <h2>Styling</h2>
 
-                        <h3 id="so-dark"><a href="https://github.com/Tiny-Giant/myuserscripts/blob/master/SODark.user.js">SO Dark</a></h3>
+                    <article class="permalink-target" id="so-dark" data-userscript="https://github.com/Tiny-Giant/myuserscripts/blob/master/SODark.user.js">
+                        <h3>SO Dark</h3>
                         <p>This is really buggy right now, best to just not use this yet.</p>
-                    </section>
-                </div>
-                <div class="sidebar">
-                    <a href="https://github.com/Tiny-Giant/myuserscripts" class="button github">
-                        <small>View project on</small>
-                        GitHub
-                    </a>
-                    <a href="https://github.com/Tiny-Giant/myuserscripts/zipball/master" class="button download">
-                        <small>Download</small>
-                        .zip file
-                    </a>
-                    <a href="https://github.com/Tiny-Giant/myuserscripts/tarball/master" class="button download">
-                        <small>Download</small>
-                        .tar.gz file
-                    </a>
-                </div>
-            </div>
-            <div class="clearfix">
-                <div class="main-content">
-                    <h1 id="related-repos">Related Repositories</h1>
-                    <p>These are some other repositories that also contain useful userscripts</p>
-
-                    <section>
-                        <h3 id="socvr"><a href="https://github.com/SO-Close-Vote-Reviewers/UserScripts">SO-Close-Vote-Reviewers: User Scripts</a></h3>
-                        <p>This is a collection of user scripts written by members of the <a href="https://socvr.org">SOCVR</a> which serve various purposes</p>
-
-                        <h3 id="tunaki"><a href="https://github.com/Tunaki/stackoverflow-userscripts">Tunaki: User Scripts</a></h3>
-                        <p>This is a collection of user scripts written by <a href="http://stackoverflow.com/users/1743880/tunaki">Tunaki</a> which serve various purposes</p> 
-                    </section>
-                </div>               
-            </div>
+                    </article>
+                </section>
+            </section>
+            <aside class="sidebar">
+                <a href="https://github.com/Tiny-Giant/myuserscripts" class="button github">
+                    <small>View project on</small>
+                    GitHub
+                </a>
+                <a href="https://github.com/Tiny-Giant/myuserscripts/zipball/master" class="button download">
+                    <small>Download</small>
+                    .zip file
+                </a>
+                <a href="https://github.com/Tiny-Giant/myuserscripts/tarball/master" class="button download">
+                    <small>Download</small>
+                    .tar.gz file
+                </a>
+            </aside>
         </div>
-        <script async="true">
-            var selector = [
-                '.main-content h1[id]',
-                '.main-content h2[id]',
-                '.main-content h3[id]',
-            ].join(',');
-            var headers = [].slice.call(document.querySelectorAll(selector));
 
-            for(var i in headers) {
-                if(headers.hasOwnProperty(i)) {
-                    var header = headers[i]
-                    var id = header.id;
+        <div class="global-wrapper clearfix">
+            <section class="main-content permalink-target" id="related-repos">
+                <h1>Related Repositories</h1>
+                <p>These are some other repositories that also contain useful userscripts</p>
+
+                <section>
+                    <article class="permalink-target" id="socvr">
+                        <h3><a href="https://github.com/SO-Close-Vote-Reviewers/UserScripts">SO-Close-Vote-Reviewers: User Scripts</a></h3>
+                        <p>This is a collection of user scripts written by members of the <a href="https://socvr.org">SOCVR</a> which serve various purposes</p>
+                    </article>
+
+                    <article class="permalink-target" id="tunaki">
+                        <h3><a href="https://github.com/Tunaki/stackoverflow-userscripts">Tunaki: User Scripts</a></h3>
+                        <p>This is a collection of user scripts written by <a href="http://stackoverflow.com/users/1743880/tunaki">Tunaki</a> which serve various purposes</p> 
+                    </article>
+                </section>
+            </div>               
+        </div>
+
+        <script async="true">
+            (function(){
+                "use strict";
+
+                var targets = [].slice.call(document.querySelectorAll('.permalink-target'));
+
+                for(var i in targets) {
+                    if(!targets.hasOwnProperty(i)) {
+                        continue;
+                    }
+
+                    var target = targets[i];
+                    var id = target.id;
+
+                    if(id === null) {
+                        continue;
+                    }
+                    
+                    var header = target.querySelector('h1, h2, h3, h4, h5, h6');
+
+                    if(header === null) {
+                        continue;
+                    }
 
                     var permalink = document.createElement('a');
-                    permalink.className = 'permalink';
+                    permalink.className = 'permalink header-btn';
                     permalink.href = '#' + id;
+                    permalink.title = 'Permalink';
 
                     var icon = document.createElement('i');
                     icon.className = 'fa fa-link';
                     permalink.appendChild(icon);
 
-                    header.insertBefore(permalink, header.firstChild);
+                    header.appendChild(permalink);
+
+                    var userscript = target.dataset.userscript;
+
+                    if(userscript === undefined) {
+                        continue;
+                    }
+
+                    permalink.className += ' permalink-show';
+
+                    var githublink = document.createElement('a');
+                    githublink.className = 'header-btn';
+                    githublink.href = userscript;
+                    githublink.title = 'Github';
+
+                    var icon = document.createElement('i');
+                    icon.className = 'fa fa-external-link';
+                    githublink.appendChild(icon);
+
+                    header.appendChild(githublink);
+
+                    var rawlink = document.createElement('a');
+                    rawlink.className = 'header-btn';
+                    rawlink.href = userscript.replace(/\/blob\//, '/raw/');
+                    rawlink.title = 'Install';
+
+                    var icon = document.createElement('i');
+                    icon.className = 'fa fa-download';
+                    rawlink.appendChild(icon);
+
+                    header.appendChild(rawlink);
                 }
-            }
+            })();
         </script>
     </body>
 </html>
