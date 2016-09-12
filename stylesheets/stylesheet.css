@@ -93,6 +93,12 @@ header .button {
   width: 700px;
 }
 
+.main-content h1,
+.main-content h2,
+.main-content h3 {
+  margin: 0 !important;
+}
+
 .main-content h1 {
   padding-left: 10px;
   margin-left: -20px;
