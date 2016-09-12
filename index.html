@@ -182,7 +182,7 @@
                     permalink.title = 'Permalink';
 
                     var icon = document.createElement('i');
-                    icon.className = 'fa fa-link';
+                    icon.className = 'icon icon-link';
                     permalink.appendChild(icon);
 
                     header.appendChild(permalink);
@@ -196,23 +196,23 @@
                     permalink.className += ' permalink-show';
 
                     var githublink = document.createElement('a');
-                    githublink.className = 'header-btn';
+                    githublink.className = 'external header-btn';
                     githublink.href = userscript;
                     githublink.title = 'Github';
 
                     var icon = document.createElement('i');
-                    icon.className = 'fa fa-external-link';
+                    icon.className = 'icon icon-link-ext';
                     githublink.appendChild(icon);
 
                     header.appendChild(githublink);
 
                     var rawlink = document.createElement('a');
-                    rawlink.className = 'header-btn';
+                    rawlink.className = 'rawlink header-btn';
                     rawlink.href = userscript.replace(/\/blob\//, '/raw/');
                     rawlink.title = 'Install';
 
                     var icon = document.createElement('i');
-                    icon.className = 'fa fa-download';
+                    icon.className = 'icon icon-download';
                     rawlink.appendChild(icon);
 
                     header.appendChild(rawlink);

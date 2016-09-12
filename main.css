@@ -1,4 +1,5 @@
 @import 'https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400';
+@import 'icons/fontello.css';
 
 html * {
   box-sizing: border-box;
@@ -29,6 +30,7 @@ h1, h2, h3, h4, h5, h6 {
 
 
 .header-btn {
+  border: 0px;
   position: relative;
   top: -0.3em;
   line-height: 2em;
@@ -55,9 +57,13 @@ h2:hover .permalink,
 h3:hover .permalink {
   display: inline-block;
 }
-
+section, article {
+  margin-left: 10px;
+}
 p {
   margin: 0;
+  padding-left: 10px;
+  padding-bottom: 10px;
 }
 
 code, pre {
@@ -80,11 +86,14 @@ pre code {
 }
 
 a {
+  font-weight: 400 !important;
+  border-bottom: 1px dotted #2196F3;
   text-decoration: none;
   color: #2196F3;
 }
 a:hover {
   color: #1E88E5;
+  border-color: #1E88E5;
 }
 
 header {
@@ -132,28 +141,6 @@ header .button.stackoverflow {
   float: left;
   width: 700px;
 }
-
-.main-content h1,
-.main-content h2,
-.main-content h3 {
-  margin-top: 0 !important;
-  margin-bottom: 0 !important;
-}
-
-
-.main-content h1 {
-  margin-left: -10px;
-}
-
-.main-content h3 {
-  padding-left: 10px;
-}
-
-.main-content p {
-  padding-left: 20px;
-  margin-bottom: 10px;
-}
-
 .sidebar {
   float: right;
   padding-top: 20px;
@@ -184,6 +171,8 @@ a.button {
   margin-bottom: 20px;
   font-size: 21px;
   color: #FFF;
+  line-height: 1.6;
+  border: none;
 }
 a.button.stackoverflow {
   padding-left: 50px;
@@ -196,7 +185,6 @@ a.button.github {
   border-radius: 9px;
 }
 a.button.download {
-  padding-top: 20px;
   background: transparent url(images/download-button.png) 0 0 no-repeat;
 }
 
