@@ -134,9 +134,15 @@
                 if(headers.hasOwnProperty(i)) {
                     var header = headers[i]
                     var id = header.id;
+
                     var permalink = document.createElement('a');
-                    permalink.className = 'permalink fa fa-link';
+                    permalink.className = 'permalink';
                     permalink.href = '#' + id;
+
+                    var icon = document.createElement('i');
+                    icon.className = 'fa fa-link';
+                    permalink.appendChild(icon);
+
                     header.insertBefore(permalink, header.firstChild);
                 }
             }
