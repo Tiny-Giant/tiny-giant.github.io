@@ -126,6 +126,7 @@ header .button.stackoverflow {
   position: absolute;
   top: 35px;
   right: 220px;
+  font-size:19px;
 }
 
 .global-wrapper {
