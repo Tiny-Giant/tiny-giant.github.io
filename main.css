@@ -95,8 +95,8 @@ a:hover {
 }
 
 header {
-  color: #fff;
-  background-color: #000;
+  border-bottom: 1px solid rgba(0,0,0,0.2);
+  padding: 10px 0px;
 }
 
 header .global-wrapper {
@@ -115,22 +115,14 @@ header h1 {
   font-size: 35pt;
 }
 
-header .button.github {
-  position: absolute;
-  top: 35px;
-  right: 00px;
-}
-
-header .button.stackoverflow {
-  position: absolute;
-  top: 35px;
-  right: 220px;
-  font-size:19px;
+header .button {
+  float: right;
+  margin: 10px;
 }
 
 .global-wrapper {
   position: relative;
-  width: 950px;
+  width: 800px;
   margin: 0 auto;
 }
 
@@ -138,7 +130,6 @@ header .button.stackoverflow {
   padding-left: 10px;
   padding-top: 10px;
   float: left;
-  width: 700px;
 }
 .sidebar {
   float: right;
@@ -163,33 +154,21 @@ a.button small {
 }
 a.button {
   display: block;
-  width: 202px;
-  height: 78px;
-  padding-top: 15px;
-  padding-left: 80px;
+  width: 75px;
+  height: 75px;
+  padding-top: 20px;
   margin-bottom: 20px;
-  font-size: 21px;
-  color: #FFF;
-  line-height: 1.6;
-  border: none;
+  border: 1px solid rgba(0,0,0,0.2);
+  border-radius: 10px;
 }
 a.button.stackoverflow {
-  padding-left: 50px;
-  background: transparent url(images/stackoverflow-button.png) 0 -1px no-repeat;
-  border-radius: 9px;
+  background: transparent url(images/stackoverflow-button.png) center center no-repeat;
 }
 a.button.github {
-  background: transparent url(images/github-button.png) 0 -1px no-repeat;
-  background-color: #666;
-  border-radius: 9px;
-}
-a.button.download {
-  background: transparent url(images/download-button.png) 0 0 no-repeat;
+  background: transparent url(images/github-button.png) center center no-repeat;
 }
 
 /* GENERAL ELEMENT TYPE STYLES */
-
-
 
 .clearfix:after {
   display: block;
